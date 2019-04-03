@@ -12,18 +12,19 @@ a{
     margin:0 auto;
 }
 .logo-text{
-    background: red;
+    background: rgb(212, 245, 212);
+    color:green;
     display: inline-block;
 }
 .navigation{
-    background: #ffa500;
-    display: flex;
+    background: red;
 }
 .visual{
-    background: yellowgreen;
+    background: orange;
+    height: 600px;
 }
 .articles{
-    background: green;
+    background: yellowgreen;
 }
 .business-info{
     background: plum;
@@ -31,8 +32,27 @@ a{
 .footer{
     background: purple;
 }
-ul.sub-menu{
-    display: inline;
-    padding: 0 10px;
-    margin: 0 10px;
+.menu-item{
+    display: inline-block;
 }
+.sub-menu1,.sub-menu3{
+    background:whitesmoke;
+}
+.sub-menu2,.sub-menu4{
+    background:gray;
+}
+.menu-item-dropdown{
+    position: relative;
+    display: inline-block;
+}
+.sub-menu-dropdown{
+    display: none;
+    position: absolute;
+}
+.sub-menu-dropdown li{
+    display:block;
+}
+li.menu-item-dropdown:hover ul.sub-menu-dropdown{
+    display:block;
+}
+
