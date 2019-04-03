@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url("./normalize.css");
+
+/* 링크 스타일 */
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.header,.visual,.main,.footer{
+    width:1200px;
+    margin:0 auto;
+}
+.logo-text{
+    background: red;
+    display: inline-block;
+}
+.navigation{
+    background: #ffa500;
+    display: flex;
+}
+.visual{
+    background: yellowgreen;
+}
+.articles{
+    background: green;
+}
+.business-info{
+    background: plum;
+}
+.footer{
+    background: purple;
+}
+ul.sub-menu{
+    display: inline;
+    padding: 0 10px;
+    margin: 0 10px;
+}
