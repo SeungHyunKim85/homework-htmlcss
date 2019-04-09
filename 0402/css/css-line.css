@@ -21,50 +21,51 @@ a{
     margin:0 auto;
 }
 /* 헤더 */
+.header{
+    background: whitesmoke;
+    position: relative;
+}
 .logo-text{
     background: #aaa;
     color:green;
-    display: inline-block;
 }
 .navigation{
     background: red;
 }
-.sitemap-langauge{
-    background: yellow;
-}
 .menu{
-    background: orange
+    background: orchid;
+    margin-left: 100px;
 }
 .menu-item{
     background: yellowgreen;
-    display: inline-block;
+    float: left;
+    width: 100px;
 }
-.menu-item-dropdown{
-    background: skyblue;
-    position: relative;
-    display: inline-block;
-}
-.sub-menu-dropdown{
+.sub-menu{
     background: teal;
     display: none;
-    position: absolute;
 }
-.sub-menu-dropdown li{
-    display:block;
+.langauge-select{
+    background: grey;
 }
-li.menu-item-dropdown:hover ul.sub-menu-dropdown{
-    display:block;
+.langauge-select-list{
+    background: blueviolet;
+    display: none;
 }
+/* 비주얼 */
 .visual{
     background: orange;
     height: 600px;
 }
+/* 뉴스아티클 */
 .articles{
     background: yellowgreen;
 }
+/* 비지니스 정보 */
 .business-info{
     background: plum;
 }
+/* 푸터 */
 .footer{
     background: purple;
 }
