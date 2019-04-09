@@ -7,17 +7,53 @@ a{
     color:inherit;
     text-decoration:none;
 }
+.readable-hidden{
+    background: red;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+}
 .header,.visual,.main,.footer{
     width:1200px;
     margin:0 auto;
 }
+/* 헤더 */
 .logo-text{
-    background: rgb(212, 245, 212);
+    background: #aaa;
     color:green;
     display: inline-block;
 }
 .navigation{
     background: red;
+}
+.sitemap-langauge{
+    background: yellow;
+}
+.menu{
+    background: orange
+}
+.menu-item{
+    background: yellowgreen;
+    display: inline-block;
+}
+.menu-item-dropdown{
+    background: skyblue;
+    position: relative;
+    display: inline-block;
+}
+.sub-menu-dropdown{
+    background: teal;
+    display: none;
+    position: absolute;
+}
+.sub-menu-dropdown li{
+    display:block;
+}
+li.menu-item-dropdown:hover ul.sub-menu-dropdown{
+    display:block;
 }
 .visual{
     background: orange;
@@ -31,28 +67,5 @@ a{
 }
 .footer{
     background: purple;
-}
-.menu-item{
-    display: inline-block;
-}
-.sub-menu1,.sub-menu3{
-    background:whitesmoke;
-}
-.sub-menu2,.sub-menu4{
-    background:gray;
-}
-.menu-item-dropdown{
-    position: relative;
-    display: inline-block;
-}
-.sub-menu-dropdown{
-    display: none;
-    position: absolute;
-}
-.sub-menu-dropdown li{
-    display:block;
-}
-li.menu-item-dropdown:hover ul.sub-menu-dropdown{
-    display:block;
 }
 

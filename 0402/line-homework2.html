@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Line-homework2</title>
-    <!-- <link rel="stylesheet" href="css/css-line.css" /> -->
+    <link rel="stylesheet" href="css/css-line.css" />
+    <link rel="shortcut icon" href="css/favicon_v2.ico" type="image/x-icon" />
   </head>
-
   <body>
     <header class="header">
       <h1 class="logo-text">
-        LINE<a href="#"><img src="#" alt="LINE"/></a>
+        <a href="#">LINE</a>
       </h1>
       <nav class="navigation">
         <h2 class="readable-hidden">메인 메뉴</h2>
@@ -51,87 +51,123 @@
               <li><a href="#">채용공고</a></li>
             </ul>
           </li>
-          
+          <li class="menu-item sitemap">
+            <a href="#">SITE MAP</a>
+          </li>
         </ul>
       </nav>
       <section class="sitemap-langauge">
-        <ul>
-            <li class="menu-item">
-                <a href="#">SITE MAP</a>
-            </li>
-            <li class="menu-item menu-item-dropdown">
-                <a href="#" class="menu-item-text">LANGUAGE</a>
-                    <ul class="sub-menu sub-menu-dropdown">
-                        <li><a href="#">English</a></li>
-                        <li><a href="#">Japanese</a></li>
-                        <li><a href="#">Korean</a></li>
-                        <li><a href="#">Chinese</a></li>
-                        <li><a href="#">Chinese</a></li>
-                        <li><a href="#">Thai</a></li>
-                    </ul>
-            </li>
+        <button>언어선택</button>
+        <ul class="sub-menu sub-menu-dropdown">
+          <li><a href="#">English</a></li>
+          <li><a href="#">日本語</a></li>
+          <li><a href="#">한국어</a></li>
+          <li><a href="#">中文(繁體)</a></li>
+          <li><a href="#">中文(简体)</a></li>
+          <li><a href="#">ภาษาไทย</a></li>
         </ul>
       </section>
     </header>
     <main class="main">
-      <div class="visual"> 
-          <section class="readable-hidden">visual LINE Mission
-                <img src="#" alt=""/>
-          </section>
-          <ul>
-              <li>CLOSING THE DISTANCE</li>
-              <li><a href="#">LINE's Mission</a></li>
-          </ul>
-        </div>
+      <div class="visual">
+        <section class="visual-section">
+          <h2><a href="#">LINE's Mission</a></h2>
+          <p>CLOSING THE DISTANCE</p>
+          <!-- <iframe
+            width="1200"
+            height="500"
+            src="https://www.youtube.com/embed/Ko8kgkE4eXg?controls=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+        </section>
+      </div>
       <div class="articles">
         <article class="news-room">
-          <h3>NEWS ROOM</h3>
+          <h2>NEWS ROOM</h2>
           <ul class="article-lists">
-            <li><a href="#">라인, 웰컴 키트 디자인 프로젝트로 iF 디자인 어워드 2019 수상 2019.02.19 | ALL</a></li>
-            <li><a href="#">라인-한국정보과학회 블록체인 경진대회에서 링크체인 기반 에너지 거래 플랫폼 선보인 EVlock팀 우승 2018.12.26 | ALL</a></li>
-            <li><a href="#">라인, 보안 역량 강화 위해 세계적 화이트해커로 구성된 ‘그레이해쉬’ 인수 2018.12.11 | ALL</a></li>
-            <li><a href="#">라인, 유저 의견 반영한 쉽고 편리한 핀테크 서비스 제공 위해 설문조사 실시 2018.12.05 | ALL</a></li>
-            <li><a href="#">라인, 글로벌 암호화폐 거래소 비트박스에 아이콘(ICX) 상장 2018.11.27 | ALL</a></li>
-            <li><a href="#">라인, 글로벌 개발 기술 컨퍼런스 ‘LINE DEV DAY 2018’ 개최 2018.11.23 | ALL</a></li>
-            <li><a href="#">라인, 글로벌 암호화폐 거래소 비트박스 모바일 앱 출시 2018.11.06 | ALL</a></li>
-            <li><a href="#">라인파이낸셜, KEB하나은행 인도네시아 신주인수계약 통해 인니 핀테크 사업 본격화 2018.10.28 | ALL</a></li>
+            <li>
+              <a href="#">라인, 웰컴 키트 디자인 프로젝트로 iF 디자인 어워드 2019 수상
+                <time>2019.02.19</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인-한국정보과학회 블록체인 경진대회에서 링크체인 기반 에너지
+                거래 플랫폼 선보인 EVlock팀 우승 <time>2018.12.26</time> |
+                <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인, 보안 역량 강화 위해 세계적 화이트해커로 구성된
+                ‘그레이해쉬’ 인수 <time>2018.12.11</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인, 유저 의견 반영한 쉽고 편리한 핀테크 서비스 제공 위해
+                설문조사 실시 <time>2018.12.05</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인, 글로벌 암호화폐 거래소 비트박스에 아이콘(ICX) 상장
+                <time>2018.11.27</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인, 글로벌 개발 기술 컨퍼런스 ‘LINE DEV DAY 2018’ 개최
+                <time>2018.11.23</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인, 글로벌 암호화폐 거래소 비트박스 모바일 앱 출시
+                <time>2018.11.06</time> | <b>ALL</b></a>
+            </li>
+            <li>
+              <a href="#">라인파이낸셜, KEB하나은행 인도네시아 신주인수계약 통해 인니
+                핀테크 사업 본격화 <time>2018.10.28</time> | <b>ALL</b></a>
+            </li>
           </ul>
         </article>
       </div>
       <div class="business-info">
-          <ul class="info-lists">
-              <li><a href="#">비지니스 제휴 문의</a></li>
-                <a href="#" class="info-text">LINE은 사용자들의 커뮤니케이션을 더욱 즐겁게
-                        만들어줄 파트너 기업을 모집합니다.</a>
-              <li><a href="#">기술정보</a></li>
-                <a href="#" class="info-text">LINE의 개발자들은 다양한 서비스를 개발하며, 기술적 도전을 매일 경험하고 있습니다.</a>
-              <li><a href="#">채용공고</a></li>
-                <a href="#" class="info-text">전 세계 인재들과 함께 내 커리어를 level up 하고 싶다면 지금 LINE에 조인하세요!</a>
-              <li><a href="#">캐릭터 사업</a></li>
-                <a href="#" class="info-text">메신저 속 LINE FRIENDS의 다양한 제품들은 물론, 특별한 경험도 선사합니다.</a>
-          </ul>
+        <dl class="info-lists">
+          <dt><a href="#">비지니스 제휴 문의</a></dt>
+          <dd>
+            <a href="#" class="info-text">LINE은 사용자들의 커뮤니케이션을 더욱 즐겁게 만들어줄 파트너
+              기업을 모집합니다.</a>
+          </dd>
+          <dt><a href="#">기술정보</a></dt>
+          <dd>
+            <a href="#" class="info-text">LINE의 개발자들은 다양한 서비스를 개발하며, 기술적 도전을 매일
+              경험하고 있습니다.</a>
+          </dd>
+          <dt><a href="#">채용공고</a></dt>
+          <dd>
+            <a href="#" class="info-text">전 세계 인재들과 함께 내 커리어를 level up 하고 싶다면 지금
+              LINE에 조인하세요!</a>
+          </dd>
+          <dt><a href="#">캐릭터 사업</a></dt>
+          <dd>
+            <a href="#" class="info-text">메신저 속 LINE FRIENDS의 다양한 제품들은 물론, 특별한 경험도 선사합니다.</a>
+          </dd>
+        </dl>
       </div>
       <div class="footer">
-          <footer>
-              <ul class="footer-list">
-                  <li><small>©LINE Corporation</small></li>
-                  <li><a href="#">개인정보처리방침</a></li>
-                  <li><a href="#">LINE 파트너</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Family Sites</a>
-                      <ul class="dropdown-lists">
-                          <li><a href="#">LINE</a></li>
-                          <li><a href="#">LINE STORE</a></li>
-                          <li><a href="#">LINE Creators Market</a></li>
-                          <li><a href="#">LINE Out</a></li>
-                          <li><a href="#">LINE PLAY</a></li>
-                          <li><a href="#">LINE@</a></li>
-                          <li><a href="#">LINE NEWS</a></li>
-                          <li><a href="#">LINE CAMERA</a></li>
-                      </ul>
-                  </li>
-              </ul>
-          </footer>
+        <footer>
+          <small>©LINE Corporation</small>
+          <ul class="footer-list">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">LINE 파트너</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </footer>
+        <section class="family-sites">
+          <button>Family Sites</button>
+          <ul class="family-sites sub-menu-dropdown">
+            <li><a href="#">LINE</a></li>
+            <li><a href="#">LINE STORE</a></li>
+            <li><a href="#">LINE Creators Market</a></li>
+            <li><a href="#">LINE Out</a></li>
+            <li><a href="#">LINE PLAY</a></li>
+            <li><a href="#">LINE@</a></li>
+            <li><a href="#">LINE NEWS</a></li>
+            <li><a href="#">LINE CAMERA</a></li>
+          </ul>
+        </section>
       </div>
     </main>
   </body>
